@@ -6,4 +6,4 @@ Voici les quelques présentation de ceux ci !
 
 # Maquette "BlueEasy"
 
-![alt text](https://www.noelshack.com/2018-17-4-1524778105-blueeasy.png "Maquette BlueEasy")
+![alt text](https://image.noelshack.com/fichiers/2018/17/4/1524778105-blueeasy.png "Maquette BlueEasy")
