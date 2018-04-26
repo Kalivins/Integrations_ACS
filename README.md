@@ -6,7 +6,7 @@ Voici les quelques présentation de ceux ci !
 
 # Maquette "BlueEasy" (maquette_kf)
 
-![Maquette BlueEasy](https://image.noelshack.com/fichiers/2018/17/4/1524778105-blueeasy.png "Maquette BlueEasy")
+![Maquette BlueEasy](https://raw.githubusercontent.com/Kalivins/Integrations_ACS/master/miniatures/blueeasy.png "Maquette BlueEasy")
 
 Réalisé par: **Villard Kevin (Kalivins) et Floriane Simmet ([fSimmet2]: https://github.com/Fsimmet2)**
 Période: **Septembre/Octobre 2017~**
@@ -14,7 +14,7 @@ Notre première intégration à la formation, réalisé en **HTML5** et **CSS3**
 
 # Maquette "Snow" (maquette_yoke)
 
-![Maquette Snow](https://image.noelshack.com/fichiers/2018/17/4/1524778649-snow.png "Maquette Snow")
+![Maquette Snow](https://raw.githubusercontent.com/Kalivins/Integrations_ACS/master/miniatures/Snow.png "Maquette Snow")
 
 Réalisé par: **Villard Kevin (Kalivins) et Yohann Thorez ([Fawlia]: https://github.com/Fawlia)**
 Période: **Novembre/Décembre 2017~**
@@ -22,7 +22,7 @@ Notre seconde intégration, réalisé avec **Bootstrap 3.3.7**
 
 # Maquette "Startuprr" (maquette_startupr)
 
-![Maquette Startuprr](https://image.noelshack.com/fichiers/2018/17/4/1524779203-startupr.png "Maquette Startuprr")
+![Maquette Startuprr](https://raw.githubusercontent.com/Kalivins/Integrations_ACS/master/miniatures/startupr.png "Maquette Startuprr")
 
 Réalisé par: **Villard Kevin (Kalivins)**
 Période: **Janvier/Février 2018~**
@@ -30,7 +30,7 @@ Ma première intégration réalisé en solo, réalisé avec **Bootstrap 3.3.7** 
 
 # Maquette "Halcyon" (MaquetteHalcyon_Solo)
 
-![Maquette Halcyon](https://image.noelshack.com/fichiers/2018/17/4/1524779499-halcyon.png "Maquette Halcyon")
+![Maquette Halcyon](https://raw.githubusercontent.com/Kalivins/Integrations_ACS/master/miniatures/Halcyon.png "Maquette Halcyon")
 
 Réalisé par: **Villard Kevin (Kalivins)**
 Période: **Février 2018~**
