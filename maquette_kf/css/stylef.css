@@ -1,0 +1,203 @@
+body {
+	width: 1920px;
+	margin: 0;
+	padding: 0;
+	background: url(../images/divers/background.png);
+}
+
+@font-face {
+	font-family: 'segoeuisb';
+	src: url(../polices/seguisb.ttf);
+
+}
+
+
+@font-face {
+	font-family: 'segoeui-light';
+	src: url(../polices/SegoeUI-Light.ttf);
+}
+
+h2 {
+	font-family: 'segoeui-light';
+	font-weight: normal;
+	font-size: 30px; 
+}
+/* --------------- footer --------------- */
+
+footer {
+	font-family: 'segoeuisb';
+	font-size: 14pt;
+	background-color: #384049;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding-right: 365px;
+	padding-left: 365px;
+	color: #525E68;
+	margin: 0;
+}
+
+/* liste sans puce, horizontal */
+
+ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* marge haut bas centre footer */
+.copy, ul {
+	margin-bottom: 83px;
+	margin-top: 83px;
+}
+/* espace entre les li */
+
+ul li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* bordure a droite de chaque element de la nav sauf le dernier */
+
+.border {
+	border-right: 2px solid #525E68;
+}
+
+/* --------------- section contact --------------- */
+
+.contact {
+	font-family: 'segoeuisb';
+	color: white;
+	height: 694px;
+	background: url(../images/contact/contact_background.png);
+	background-size: cover;
+	padding-left: 375px;
+	padding-right: 375px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/*input fullname email */
+
+.txt {
+	font-size: 14px;
+	border: 1px solid white;
+	background-color: transparent;
+	width: 465px;
+	height: 55px;
+	margin-right: 100px;
+}
+
+/* message */
+
+textarea {
+	border: 1px solid white;
+	background-color: transparent;
+	height: 216px;
+	width: 1167px;
+	resize: none;
+}
+
+/* bouton envoyer */
+
+.button {
+	width: 370px;
+	height: 60px;
+	background-color: #54BEFF;
+	border: none;
+	color: white;
+}
+
+/* nom input au dessus */
+
+label {
+	display: flex;
+
+}
+
+/* div en ligne */
+
+.box {
+	display: flex;
+	flex-direction: row;
+}
+
+/* aligner les p avec les input */
+
+.t1 {
+	padding-top: 15px;
+}
+
+/* --------------- section test --------------- */
+
+.test {
+	background-color: white;
+	padding-left: 375px;
+	padding-right: 375px;
+	font-family: 'segoe ui';
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 24pt;
+	color: #525E68;
+}
+
+/* citation */
+
+cite {
+	font-family: 'segoeuisb';
+	font-style: normal;
+	color: #54BEFF;
+}
+
+/* apostrophe */
+
+aside {
+	float: right;
+}
+
+/* --------------- section john --------------- */
+
+.John {
+	
+	background: url(../images/John_Doe/john.png);
+	padding-left: 375px;
+	padding-right: 375px;
+	color: white;
+	font-family: 'segoe ui';
+	font-size: 14px;
+	padding-top: 100px;
+}
+
+.flex {
+	display: flex;
+	}
+
+.flex p {
+	margin-right: 50px;
+	margin-bottom: 35px;
+
+}
+
+
+/* --------------- section twitter --------------- */
+
+.twitter_section {
+
+	color: white;
+	font-family: 'seguisb';
+	font-size: 28px;
+	height: 140px;
+	background-color: #79CFFF;
+	padding-left: 375px;
+	padding-right: 375px;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+.twitter_section a {
+	color: white;
+	text-decoration: none;
+}

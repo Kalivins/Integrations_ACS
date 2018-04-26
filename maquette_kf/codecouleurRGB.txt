@@ -1,0 +1,8 @@
+RGB color
+couleur de bordure des a:hover: 75, 202, 255
+fond nav bar & highlight (I'm looking for..): 53, 63, 70 (transparence)
+fond section services: 75, 202, 255
+fond just default section: 81, 95, 103
+fond twitter: 75, 202, 255
+fond citation: white
+fond footer: 53, 63, 71

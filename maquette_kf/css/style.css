@@ -1,0 +1,578 @@
+@font-face {
+	font-family: 'segoeuisb';
+	src: url(../polices/seguisb.ttf);
+
+}
+@font-face {
+	font-family: 'segoeui-light';
+	src: url(../polices/SegoeUI-Light.ttf);
+}
+body
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/divers/background.png);
+}
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 800px;
+    font-family: "segoe ui";
+    background: url(../images/header/header_background_2.jpg) center 0 no-repeat fixed;
+    background-size: cover;
+}
+header nav
+{
+    padding-left: 316px;
+    padding-right: 375px;
+    display: block;
+    background-color: rgba(53, 63, 70, 0.85);
+}
+header nav ul
+{ 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    flex: 1;
+    list-style-type: none;
+}
+header nav li
+{
+    font-weight: bold;
+    margin-top: 72px;
+    padding-left: 60px;
+    font-size: 14px;
+}
+header nav li a
+{
+    color: white;
+    text-decoration: none;
+}
+header nav li .bouton
+{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: solid #4bcaff 2px;
+    color: #4bcaff;
+}
+header nav li a:hover
+{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: solid #4bcaff 2px;
+    color: #4bcaff;
+}
+header nav .titre
+{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    flex: 1;
+    font-weight: bold;
+    font-size: 30px;
+}
+#citation_1
+{
+    display: flex;
+    padding-top: 244px;
+    flex-direction: column;
+    align-items: center;
+}
+header .line_1
+{
+    display: inline;
+    margin: 6px;
+    padding: 0;
+    width: 713px;
+    height: 65px;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'SegoeUI-Light'; 
+    color: white;
+    background-color: rgba(53, 63, 70, 0.85);
+}
+header .line_2
+{
+    display: inline;
+    margin: 6px;
+    padding: 0;
+    width: 989px;
+    height: 65px;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'segoeui-light'; 
+    color: white;
+    background-color: rgba(53, 63, 70, 0.85);
+}
+.E
+{
+    color: deepskyblue;
+}
+#services
+{
+    font-family: "segoe ui";
+    color: white;
+    background-color: rgb(75, 202, 255);
+    padding-top: 80px;
+    padding-left: 344px;
+    padding-right: 375px;
+    padding-bottom: 77px;
+}
+#services h2
+{
+    font-family: "segoeui-light";
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 50px;
+    padding: 0;
+}
+#services .flexbox_1
+{
+    display: flex;
+}
+#services h3
+{
+    font-family: "segoeuisb";
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+#services .flexbox_1 p
+{
+    font-family: "segoeuisb";
+    font-size: 12px;
+}
+#services .flexbox_1 div
+{
+    margin-left: 31px;
+}
+#portfolio
+{
+    padding-top: 80px;
+    padding-left: 343px;
+    padding-right: 375px;
+    padding-bottom: 47px;
+    font-family: "segoe ui";
+    color: #69747b;
+    background-color: white;
+}
+#portfolio .ti
+{
+    font-size: 30px;
+    font-family: "segoeui-light";
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+#portfolio nav a
+{
+    color: #69747b;
+    text-decoration: none;
+}
+#portfolio nav a:hover
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: solid #4bcaff 2px;
+    color: #4bcaff;
+}
+#portfolio nav ul
+{ 
+    margin-bottom: 90px;
+    padding: 0;
+    float: right;
+    display: flex;
+    list-style-type: none;
+}
+#portfolio nav li
+{
+    font-weight: bold;
+    padding-left: 60px;
+    font-size: 14px;
+}
+#portfolio nav .all
+{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: solid #4bcaff 2px;
+    color: #4bcaff;
+}
+#photos
+{
+    display: flex;
+    flex-wrap: wrap;
+    clear: right;
+}
+.photo
+{
+    position: relative;
+    width: 270px;
+    height: 270px;
+}
+.photo div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/portfolio/+.png);
+    opacity: 0;
+    transition: opacity .200s;
+}
+.photo:hover div
+{
+    opacity: 0.8;
+    transition: opacity .200s;
+    cursor: pointer;
+}
+.photo1
+{
+    background: url(../images/portfolio/portfolio_photo1.png) no-repeat;
+}
+.photo2
+{
+    background: url(../images/portfolio/portfolio_photo2.png) no-repeat;
+}
+.photo3
+{
+    background: url(../images/portfolio/portfolio_photo3.png) no-repeat;
+}
+.photo4
+{
+    background: url(../images/portfolio/portfolio_photo4.png) no-repeat;
+}
+.photo5
+{
+    background: url(../images/portfolio/portfolio_photo5.png) no-repeat;
+}
+.photo6
+{
+    background: url(../images/portfolio/portfolio_photo6.png) no-repeat;
+}
+.photo7
+{
+    background: url(../images/portfolio/portfolio_photo7.png) no-repeat;
+}
+.photo8
+{
+    background: url(../images/portfolio/portfolio_photo8.png) no-repeat;
+}
+#photos div
+{
+    margin-right: 26px;
+    margin-bottom: 30px;
+}
+#default_section
+{
+    padding-left: 343px;
+    padding-right: 375px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: white;
+    font-family: "segoe ui";
+}
+#default_section h2
+{
+    font-family: "segoeui-light";
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+#default_contenu
+{
+    width: 462px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-right: 150px;
+}
+#default_contenu p
+{
+    font-size: 14px;
+}
+#default_contenu button
+{
+    border: solid #353f46 2px;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    width: 135px;
+    height: 45px;
+}
+#default_contenu .visit
+{
+    color: #353f46;
+}
+#default_contenu img
+{
+    float: right;
+}
+.contact h2, .test h2, .John  h2, .twitter_section h2 {
+	font-family: 'segoeui-light';
+	font-size: 30px;
+}
+/* footer */
+
+footer {
+	font-family: 'segoeuisb';
+	font-size: 14pt;
+	background-color: #384049;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding-right: 365px;
+	padding-left: 330px;
+	color: #525E68;
+	margin: 0;
+}
+
+/* liste sans puce, horizontal */
+
+footer > ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* marge haut bas centre footer */
+.copy, footer ul {
+	margin-bottom: 83px;
+	margin-top: 83px;
+}
+/* espace entre les li */
+
+footer ul li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/* bordure a droite de chaque element de la nav sauf le dernier */
+
+footer nav .border {
+	border-right: 2px solid #525E68;
+}
+
+/* section contact */
+
+.contact {
+	color: white;
+	height: 694px;
+	background: url(../images/contact/contact_background.png);
+	background-size: cover;
+	padding-left: 375px;
+	padding-right: 375px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/*input fullname email */
+
+.txt {
+	font-size: 22px;
+    color: white;
+	border: 1px solid white;
+	background-color: transparent;
+	width: 465px;
+	height: 55px;
+	margin-right: 100px;
+}
+
+/* message */
+
+.contact textarea {
+	border: 1px solid white;
+	background-color: transparent;
+	height: 216px;
+	width: 1167px;
+	resize: none;
+}
+
+/* bouton envoyer */
+
+.button {
+	width: 370px;
+	height: 60px;
+	background-color: #54BEFF;
+	border: none;
+    font-weight: bold;
+	color: white;
+}
+
+/* nom input au dessus */
+
+.contact label {
+    font-family: "segoe ui";
+    font-weight: bold;
+	display: flex;
+
+}
+
+/* div en ligne */
+
+.box {
+	display: flex;
+	flex-direction: row;
+}
+
+/* aligner les p avec les input */
+
+.t1 {
+	padding-top: 15px;
+}
+
+/* section test */
+
+.test {
+	background-color: white;
+	padding-left: 375px;
+	padding-right: 375px;
+	font-family: 'segoeui-light';
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 28px;
+	color: #525E68;
+}
+
+/* citation */
+
+.test cite {
+	font-family: 'segoe ui';
+    font-weight: bold;
+	font-style: normal;
+    font-size: 14px;
+	color: #54BEFF;
+}
+
+/* border sous les titres */
+
+.sous_grey
+{
+    border-bottom: 2px solid #525E68;
+    padding-bottom: 2px;
+}
+.sous_blanc
+{
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+
+/* apostrophe */
+
+aside {
+	float: right;
+}
+
+/* --------------- section john --------------- */
+
+.john {
+	
+    background: url(../images/John_Doe/john_doe.png) center 0 no-repeat fixed;
+	padding-left: 340px;
+	padding-right: 375px;
+	color: white;
+	font-family: 'segoe ui';
+	font-size: 14px;
+	padding-top: 100px;
+}
+.john h2
+{
+    margin-bottom: 47px;
+}
+.flex {
+	display: flex;
+	padding-bottom: 102px;
+	}
+
+.flex p {
+	margin-right: 50px;
+	margin-bottom: 35px;
+
+}
+.fbox i
+{
+    font-size: 30px;
+    border: solid white 2px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-right: 18px;
+}
+.fbox a
+{
+    color: white;
+    text-decoration: none;
+}
+#twitter:hover
+{
+    background-color: #4bcaff;
+    cursor: pointer;
+}
+#google:hover
+{
+    background-color: #C61E00;
+    cursor: pointer;
+}
+#dribble:hover
+{
+    background-color: #F10080;
+    cursor:pointer;
+}
+#cafe:hover
+{
+    background-color: #523A21;
+    cursor: pointer;
+}
+h2
+{
+    font-family: "segoeui-light";
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------- section twitter --------------- */
+
+.twitter_section {
+
+	color: white;
+	font-family: 'seguisb';
+	font-size: 28px;
+	height: 140px;
+	background-color: #4bcaff;
+	padding-left: 340px;
+	padding-right: 375px;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+.twitter_section a {
+	color: white;
+	text-decoration: none;
+}
+textarea
+{
+    font-size: 20px;
+    color: white;
+}
