@@ -1,0 +1,464 @@
+/*
+Theme Name: bamk
+Author: bamk
+Description: Premier thème WordPress
+Version: 1.0
+*/
+@import 'sass/mixins.scss';
+@import 'sass/variables.scss';
+
+
+//Header
+header.page{
+  background-color: #808080;
+  height: 50vh;
+  h2{
+    font-size: 4rem;
+    font-family: 'Raleway_SemiBold';
+    color: white;
+    margin-top: 80px;
+  }
+  .navbar-light {
+    .navbar-brand{
+      font-family: "Times New Roman";
+      font-size: 48px;
+      color: white;
+      &:hover{
+        color: white;
+      }
+    }
+    .navbar-toggler{
+      color: white;
+      border: none;
+    }
+    #navbarNavDropdown{
+      a{
+        font-family: 'Times New Roman';
+        color: #fff;
+        &:hover{
+          color: white;
+        }
+      }
+      .sub-menu{
+        a{
+          color: black;
+        }
+      }
+    }
+  }
+  #cheminA .breadcrumb{
+    border: none;
+    a{
+      color: white;
+    }
+    .breadcrumb-item.active{
+      color: white;
+    }
+  }
+}
+
+//home
+header.home {
+  padding-bottom: 100px;
+  background-color: #4d4d4d;
+  .navbar-light {
+    font-family: 'Times New Roman';
+    .navbar-brand{
+      font-size: 3rem;
+      color: $white;
+      &:hover{
+        color: $white;
+      }
+    }
+    .navbar-toggler{
+      color: $white;
+      border: none;
+    }
+    #navbarNavDropdown{
+      a{
+        color: $white;
+        &:hover{
+          color: $white;
+        }
+      }
+      .sub-menu{
+        a{
+          color: black;
+        }
+      }
+    }
+  }
+  .jumbotron-fluid {
+    padding-top: 110px;
+    padding-bottom: 170px;
+    .clasco {
+      color: white;
+      font-family: Raleway_Bold;
+      font-size: 12.08125em;
+      line-height: 180px;
+      padding: 70px;
+      border: 20px solid $white;
+    }
+  }
+}
+
+main {
+  .title {
+    p.grey {
+      margin-bottom: 0;
+    }
+    h2 {
+      font-size: 36px;
+    }
+  }
+  hr {
+    width: 33px;
+    height: 2px;
+    background-color: #e4e4e4;
+    border: none;
+  }
+}
+
+.products {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .title {
+    p.grey {
+      @include fonts(Georgia, normal, 16px);
+    }
+    h2 {
+      @include fonts(Myriad pro, normal, 36px);
+      letter-spacing: .050em;
+    }
+  }
+  .filters {
+    .underline {
+      font-size: 30px;
+      .nav-link {
+        @include fonts(Raleway_Medium, normal, 18px);
+        color: $gris;
+        &:hover {
+          color: $black;
+        }
+      }
+    }
+    .underline:hover {
+      text-decoration: underline;
+      text-decoration-color: #afafaf;
+    }
+  }
+  .liste {
+    article {
+      @include fonts(Raleway_SemiBold, normal, 18px);
+      border: none;
+      padding-top: 30px;
+      .brand {
+        font-size: 14px;
+      }
+      .black{
+        color: $black;
+      }
+      .price {
+        font-size: 24px;
+        color: $rouge;
+      }
+    }
+  }
+}
+
+.features {
+  font-family: 'Raleway_Medium';
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #fafafa;
+  .title {
+    p.grey {
+      font-size: 16px;
+    }
+    h2 {
+      letter-spacing: .050em;
+    }
+  }
+  .more-details {
+    padding-bottom: 10px;
+    button {
+      @include fonts(Lato_Bold, normal, 11px);
+      color: white;
+      letter-spacing: .150em;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border: none;
+      background-color: #ea5032;
+    }
+  }
+  p.grey {
+    line-height: 30px;
+  }
+}
+
+.latest_blog {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .title {
+    @include fonts(Georgia, normal, 16px);
+    h2 {
+      @include fonts(Raleway_SemiBold, normal, 36px);
+      letter-spacing: .050em;
+    }
+  }
+  p.text-center {
+    @include fonts(Lato_Light, normal, 18px);
+    line-height: 30px;
+    padding-bottom: 50px;
+  }
+  .card {
+    border: none;
+    .card-body {
+      padding-left: 0;
+      padding-right: 0;
+      line-height: 26px;
+      @include fonts(Raleway, normal, 16px);
+      .titre_article{
+        font-family: Raleway_SemiBold;
+        color: $black;
+      }
+      .details_article {
+        font-family: 'Raleway_Light';
+        font-size: 11px;
+        padding-bottom: 40px;
+        color: #a6a6a6;
+      }
+      .description {
+        font-family: 'Raleway_Light';
+        font-size: 14px;
+        color: #a6a6a6;
+      }
+    }
+  }
+}
+
+//Blog
+.card-text, .date{
+  color: $gris;
+}
+
+.breadcrumb{
+  background-color: transparent;
+  border-bottom: 1px solid darkgray;
+  a{
+    color: $gris;
+  }
+}
+
+#pagi{
+  border-bottom: 1px solid darkgray;
+  border-top: 1px solid darkgray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  p{
+    color: $gris;
+  }
+}
+
+#pag{
+  ul{
+    margin-bottom: 0px;
+    li{
+      margin: 3px;
+    }
+    .page-link{
+      color: $gris;
+      &:hover{
+        background-color: $rouge;
+        color: $white;
+        svg{
+          fill: $white;
+        }
+      }
+    }
+  }
+  svg{
+    fill: $gris;
+  }
+}
+
+.article{
+  padding-bottom: 40px;
+  padding-top: 40px;
+  article{
+    .card{
+      border: none;
+    }
+  }
+}
+
+//About Us
+#it{
+  padding-top: 125px;
+  padding-bottom: 100px;
+  .red{
+    font-family: "Raleway_Light";
+    font-size: 1rem;
+    color: $rouge;
+  }
+  h3{
+    font-family: Raleway_SemiBold;
+    font-size: 1.75rem;
+  }
+  .grey{
+    font-family: Raleway_Light;
+    font-size: 0.9375rem;
+    color: $gris;
+  }
+}
+
+#team{
+  text-align:center;
+	background-color: #fafafa;
+	padding-top: 120px;
+  padding-bottom: 100px;
+  div{
+    h2{
+      font-family: Raleway_SemiBold;
+      font-size: 2.25rem;
+    }
+    p{
+      font-family: Raleway_Light;
+      font-size: 0.875rem;
+    }
+    .toptitle{
+      font-size: 1rem;
+    }
+    .bottitle{
+      font-size: 1.25rem;
+      padding-bottom: 70px;
+    }
+  }
+  div{
+    p{
+      font-family: Raleway_Light;
+      font-size: 0.875rem;
+    }
+    .name{
+      font-family: Raleway_Medium;
+      font-size: 1.25rem;
+    }
+    .rond{
+      height: 250px;
+      width: 250px;
+      background-color: #e6e6e6;
+      border-radius: 50%;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+#services{
+  text-align: center;
+	padding-top: 135px;
+  padding-bottom: 100px;
+  h2{
+    font-family: Raleway_SemiBold;
+    font-size: 2.25rem
+  }
+  .toptitle{
+    font-family: Lato_Light;
+    font-size: 1rem;
+  }
+  .bottitle{
+    font-family: Lato_Light;
+	  font-size: 1.125rem;
+  }
+  .branding{
+    text-align: left;
+	  margin-top: 70px;
+    .brandingtitle{
+      font-family: Raleway_Medium;
+      font-size: 1.125rem;
+      color: $black;
+    }
+    p{
+      font-family: Raleway;
+      font-size: 0.8125rem;
+      color: #999999;
+    }
+    &:hover .icones{
+      background-color: $rouge;
+	    color: white;
+    }
+  }
+  .icones{
+    display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  height: 65px;
+	  width: 65px;
+	  background-color: #f2f2f2;
+	  border: none;
+	  border-radius: 50%;
+  }
+}
+
+//produit - unité
+.voleur{
+  padding-top: 100px;
+  .guerrier{
+    padding: 30px;
+    border: 10px solid #f5f5f5;
+    h2{
+      font-family: Raleway;
+      font-size: 1.875rem;
+    }
+    p{
+      font-family: Raleway_Light;
+      font-size: 0.875rem;
+      color: $gris;
+    }
+    h3{
+      font-family: Lato_Bold;
+      font-size: 2.25rem;
+    }
+  }
+}
+
+//single article
+.contarticle{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+//footer
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  p{
+    font-family: Lato;
+    font-size: 0.875rem;
+  }
+  .auteur{
+    font-family: Lato_Bold;
+    font-size: 0.875rem;
+    color: #e04628;
+  }
+}
+
+@media screen and (max-width: 576px){
+  header.home {
+    padding-bottom: 100px;
+    background-color: #4d4d4d;
+    .jumbotron-fluid {
+      padding-top: 110px;
+      padding-bottom: 170px;
+      .clasco {
+        color: white;
+        font-family: Raleway_Bold;
+        font-size: 5rem;
+        line-height: 80px;
+        padding: 30px;
+        border: 15px solid $white;
+      }
+    }
+  }
+}

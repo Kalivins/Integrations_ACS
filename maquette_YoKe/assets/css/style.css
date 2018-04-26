@@ -1,0 +1,586 @@
+/* ////////////////////////////// WORK SANS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+@font-face {
+font-family: "worksans";
+src: url("../fonts/WorkSans-Regular.ttf");
+}
+
+@font-face {
+ font-family: "worksansbold";
+ src: url("../fonts/WorkSans-Bold.ttf");
+}
+
+@font-face {
+ font-family: "worksansmedium";
+ src: url("../fonts/WorkSans-Medium.ttf");
+}
+
+
+/* ////////////////////////////// PLAY FAIR DISPLAY \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+@font-face{
+font-family: "displayfair";
+src: url("../fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face{
+    font-family: "displayfairbold";
+    src: url("../fonts/PlayfairDisplay-Bold.ttf");
+}
+@font-face{
+    font-family: "displayfairitalic";
+    src: url("../fonts/PlayfairDisplay-Italic.ttf");
+}
+
+
+/* ////////////////////////////// GLYPHICONE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+@font-face {
+ font-family: "pixeden";
+ src: url("../fonts/PE-icon-7-stroke.html");
+}
+
+@font-face {
+ font-family: "glyphicon";
+ src: url("../fonts/glyphicons-halflings-regular-2.html");
+}
+
+
+
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ////////////////////////////// GENERAL \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+p {
+    font-family: "worksans";
+    font-size: 15px;
+}
+
+h2 {
+    font-family: "displayfairbold";
+    font-size: 38px;
+}
+
+h3{
+    font-family: "displayfairbold";
+    font-size: 20px;
+}
+@media(max-width: 668px){
+    
+    .achievements .col-xs-12 {
+        
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 70px;
+    }
+}
+@media(min-width: 669px) AND (max-width: 768px){
+    
+    .achievements .col-xs-12 {
+        
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 250px;
+    }
+}
+
+@media(min-width: 769px) AND (max-width: 1200px){
+    
+    .achievements .col-xs-12 {
+        
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 100px;
+    }
+}
+
+@media(min-width: 1201px){
+    
+    .achievements .col-xs-12 {
+        
+        padding-top: 115px;
+        padding-bottom: 80px;
+    }
+}
+/*      ##########################################
+        ##################HEADER##################
+        ##########################################     */
+header
+{
+       background: url("../img/header/header.jpg");
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header nav
+{
+    padding-top: 38px;
+}
+header .glyphicon-menu-hamburger
+{
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+header .dropdown-menu
+{
+    background-color: rgba(53, 63, 70, 0.35);
+}
+
+.dropdown-menu>li>a  {
+    color: white;
+}
+header .text-center
+{
+    padding-top: 190px;
+}
+header p
+{
+    color: white;
+    font-family: "worksansbold";
+    font-size: 14px;
+}
+header .displaybold
+{
+    color: white;
+    font-family: "displayfairbold";
+    font-size: 48px;
+}
+header .displayitalic
+{
+    font-family: "displayfairitalic";
+}
+header .pe-7s-angle-down
+{
+    border: 1px white solid;
+    border-radius: 40px;
+    font-size: 50px;
+    color: white;
+    margin-top: 151px;
+    margin-bottom: 50px;
+    
+}
+/*        ##########################################################
+          ##################SEC 1 ABOUT OUR AGENCY##################
+          ##########################################################     */
+.sec1
+{
+    background-color: #F6F6F6;
+}
+.sec1 .text-center
+{
+    padding-top: 80px;
+}
+.sec1 .displaybold
+{
+    font-family: "displayfairbold";
+    color: black;
+    font-size: 38px;
+}
+.sec1 .worksans
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #5F5F5F;
+    font-family: "worksans";
+    font-weight: normal;
+    font-size: 15px;
+}
+.sec1 img
+{
+    padding-bottom: 95px;
+}
+/*        ##########################################################
+          ##################SEC 1 PROJECTS COMPLETED################
+          ##########################################################     */
+.achievements
+{
+    background-image: url(../img/sec1/background.jpg);
+}
+
+.achievements i
+{
+    font-size: 48px;
+    padding-right: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
+.achievements .worksans
+{
+    padding: 0;
+    font-family: "worksans";
+    font-size: 18px;
+    color: white;
+}
+.achievements .worksansmedium
+{
+    font-family: "worksansmedium";
+    font-size: 14px;
+}
+
+/*        ##########################################################
+          ##################SEC 2 BEST PROJECTS#####################
+          ##########################################################     */
+.sec2
+{
+    background-color: #F6F6F6;
+    padding-bottom: 60px;
+}
+.sec2 .displaybold
+{
+    font-family: "displayfairbold";
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-size: 38px;
+    color: black;
+}
+.sec2 .worksans
+{
+    font-family: "worksans";
+    font-size: 15px;
+    color: #5F5F5F;
+    margin-bottom: 50px;
+}
+.sec2 figure
+{
+    display: flex;
+    max-width: 390px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.sec2 img
+{
+    margin-bottom: 30px;
+}
+
+.sec2 .portfolio
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sec2 .portfolio .displaybold
+{
+    font-family: "displayfairbold";
+    margin-top: 0;
+    padding-top: 87px;
+    color: black;
+    font-size: 24px;
+}
+.sec2 .portfolio .photo
+{
+    background-image: url(../img/sec2/fond_div.jpg);
+    margin-bottom: 30px;
+    width: 370px;
+    height: 250px;
+}
+.sec2 .portfolio .text-center
+{
+    opacity: 0;
+}
+.sec2 .portfolio .text-center:hover
+{
+    opacity: 1;
+    width: 100%;
+    transition: opacity .700s;
+    transition-timing-function: ease-in;
+}
+
+/*        ##########################################################
+          ##################SEC 3 CAROUSEL CITATION ################
+          ##########################################################     */
+
+
+.sec3
+{
+    background-image: url(../img/sec1/background.jpg);
+}
+.sec3 .carousel
+{
+    margin-top: 155px;
+    margin-bottom: 10px;
+}
+.sec3 .displayitalic
+{
+    font-family: "displayfairitalic";
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 24px;
+}
+.sec3 .worksansmedium
+{
+    font-family: "worksansmedium";
+    color: white;
+    font-size: 14px;
+}
+.sec3 .item
+{
+    padding-bottom: 115px;
+}
+.sec3 ol.carousel-indicators li
+{
+    width: 8px;
+    height: 8px;
+    background: #5B5B5B;
+    border: none;
+}
+
+.sec3 ol.carousel-indicators li.active
+{
+    background: #FFF;
+    width:13px;
+    height:13px;
+}
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ////////////////////////////// SECTION 4 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+#logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 64px 0;
+}
+
+#logos img {
+    padding:20px 0;
+}
+
+
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ////////////////////////////// SECTION 5 CAROUSEL\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+#sec5 {
+    background-color:#f6f6f6;
+    border-bottom: 1px solid #ececec;
+}
+
+#blog {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+    
+#myCarousel{
+    padding-bottom: 170px;
+}
+
+.mintitle {
+    position: absolute; 
+    top:205px; 
+    left:30px; 
+    background-color: black; 
+    padding: 5px 15px; 
+    font-size: 12px; 
+    font-family: "worksansmedium"; 
+    color:white; 
+    text-transform: uppercase;
+}
+
+.item{
+    display:flex;
+    justify-content: space-between;
+}
+
+.inner {
+    background-color: transparent;
+    padding:10px;
+}
+
+.inner img{
+    box-shadow: 1px 1px 10px #d1d1d1;
+}
+
+.carreblanc {
+    background-color: #fff;
+    padding:15px 30px;
+    max-width: 370px;
+    box-shadow: 1px 1px 10px #d1d1d1;
+}
+
+.carreblanc h3{
+    margin-top:10px;
+    font-family: "displayfairbold";
+    font-size: 20px;
+}
+
+.carreblanc p{
+    margin-bottom: 15px;
+}
+
+.date {
+    font-size:12px;
+    text-transform: uppercase;
+}
+
+#myCarousel ol.carousel-indicators li{
+    background: #d1d1d1;
+}
+
+#myCarousel ol.carousel-indicators li.active {
+  background: black;
+border-color: transparent;
+  height:13px;
+    width:13px;
+}
+
+
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ////////////////////////////// SECTION 6 CONTACT\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+#sec6{
+    background-color:#f6f6f6;
+}
+
+#sec6 p {
+    color: #5f5f5f;
+    padding-right: 30px;
+}
+
+#sec6 h2 {
+    margin-top: 105px;
+    margin-bottom: 42px;
+}
+
+.info {
+    font-size: 15px; 
+    font-family: "worksansmedium";
+}
+
+form {
+    margin-top: 111px;
+}
+
+.form-control{
+    height:50px;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+.form-group {
+    margin: 0;
+}
+#comment {
+    height:170px;
+}
+
+#pinfo{
+    line-height: 2.1;
+}
+
+.pgen{
+     margin-bottom: 40px;
+}
+
+.btn {
+    background-color: black;
+    border-radius: 0px;
+    color: #fff;
+    font-family: "worksansmedium";
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+    background-color: deepskyblue;
+    border-radius: 0px;
+    color: #fff;
+    font-family: "worksansmedium";
+    margin-bottom: 100px;
+}
+
+input[type="text"]{
+    font-size: 14px; 
+    font-family: "worksans";
+    padding:10px;
+}
+
+textarea[id="comment"]{
+    font-size: 14px; 
+    font-family: "worksans";
+    padding:10px;
+}
+
+
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ////////////////////////////// SECTION 7 FOOTER_\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+#sec7 {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid #252525;
+}
+
+#sec7 h3{
+    margin-top:90px;
+    margin-bottom:35px;
+}
+
+#boutus p{
+    margin-bottom: 35px;
+}
+
+#twits p{
+    margin-bottom:15px;
+}
+
+#sec7 i {
+    margin-right: 10px;
+    font-size: 20px;
+    padding-bottom:15px;
+}
+
+#insta{
+    margin-bottom: 84px;
+}
+
+#instaflex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#instaflex img {
+    margin-bottom: 3px;
+}
+
+#sec7 a {
+    color:white;
+}
+
+#sec7 a:hover {
+    color:deepskyblue;
+}
+
+
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ////////////////////////////// SECTION 8 FOOTER_\\\\\\\\\\\\\\\\\\\\\\\\*/
+/* ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+#sec8 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#sec7 a {
+    color:white;
+}
+
+#sec7 a:hover {
+    color:deepskyblue;
+}
+
+#sec8 {
+    font-size:14px;
+}
