@@ -1,0 +1,48 @@
+@media screen and (min-width: 480px) and (max-width: 769px)
+{
+    header {
+        padding-top: 20px;
+        height: 770px;
+    }
+    .passion {
+        height: 1500px;
+        img {
+            width: 120px;
+            height: 120px;
+        }
+    }
+    .portfolio {
+        .hr_sep {
+            margin-top: 10px;
+        }
+        .photo_d {
+           margin-right: 45px;
+        }
+    }
+    .subscribe {
+        padding-top: 50px;
+        .lg-input {
+            margin-bottom: 20px;
+        }
+        form {
+            button {
+                padding-top: 20px;
+            }
+        }
+        .back-to-top {
+            margin-top: 80px;
+        }
+    }
+    .contact {
+        padding-bottom: 10px;
+         .flex-row {
+            .contact-i {
+                width: 600px;
+                margin-bottom: 20px;
+             }
+        }
+    }
+    .copyright {
+        
+    }
+}

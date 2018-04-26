@@ -1,0 +1,41 @@
+.portfolio {
+    padding-top: 100px;
+    padding-bottom: 105px;
+    .sous-item {
+        letter-spacing: .150em;
+        padding-top: 45px;
+    }
+    .paragraphe {
+        padding-top: 30px;
+    }
+    .carousel-indicators {
+        bottom: -70px;
+    }
+    .photo {
+        position: relative;
+    }
+    .photo_d {
+        opacity: 0;
+        cursor: pointer;
+        padding-top: 60px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 360px;
+        height: 200px;
+        background-color: #1ca399;
+        z-index: 2;
+        transition: opacity .300s;
+        .fa-search {
+            color: white;
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+        p {
+            color: white;
+        }
+    }
+    .photo_d:hover {
+        opacity: 0.65;
+    }
+}

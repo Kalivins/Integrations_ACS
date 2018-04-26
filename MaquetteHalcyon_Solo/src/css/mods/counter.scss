@@ -1,0 +1,28 @@
+.counter {
+    background-image: url(../img/other/counter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 80px;
+    h2 {
+        color: white;
+        letter-spacing: .200em;
+        @include fonts(gothamBook, normal, 40px);
+    }
+    .sous-title {
+        font-size: 25px;
+        padding-bottom: 30px;
+        .design {
+            font-family: "gothamMediumItalic", sans-serif;
+        }
+    }
+    .btn-rounded {
+        background-color: rgb(61, 201, 179);
+        .fa-chevron-down {
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+        }
+    }
+}

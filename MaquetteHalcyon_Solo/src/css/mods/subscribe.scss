@@ -1,0 +1,43 @@
+.subscribe {
+    background-image: url(../img/subscribe/subscribe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    .fa {
+        font-size: 25px;
+        padding-bottom: 10px;
+        color: white
+    }
+    .title {
+        color: white
+    }
+    form {
+        margin-top: 45px;
+        button {
+            background-color: rgb(61, 201, 179);
+            border: none;
+            border-radius: none;
+            letter-spacing: .150em;
+            color: white;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family: gothamMedium;
+        }
+    }
+        .back-to-top {
+        margin-top: 105px; 
+        background-image: url(../img/subscribe/subscribe.jpg);
+        background: linear-gradient(to bottom, transparent 0%, transparent 50%, #f3f5f8 50%, #f3f5f8 100%);
+        button {
+            background-color: rgba(68, 180, 164, 0.75);
+            .fa {
+                color: white;
+                font-size: 17px;
+                font-weight: bold;
+            }
+        }
+    }
+}

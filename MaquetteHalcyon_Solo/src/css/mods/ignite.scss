@@ -1,0 +1,21 @@
+.ignite {
+    background-color: #242830;
+    padding-top: 65px;
+    height: 200px;
+    .btn-ignite {
+        @include fonts(gothamMedium, normal, 15px);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
+        letter-spacing: .150em;
+        color: white;
+        background: transparent;
+        border: 1px solid white;
+        border-radius: none;
+        transition: background-color .400s;
+    }
+        .btn-ignite:hover {
+                background-color: #3dc9b3;
+        }
+}

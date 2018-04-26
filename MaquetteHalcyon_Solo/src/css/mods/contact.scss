@@ -1,0 +1,28 @@
+.contact {
+    background-color: #f3f5f8;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    .flex-row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .contact-i {
+            padding-top: 30px;
+            margin-bottom: 100px;
+            width: 360px;
+            height: 150px;
+            background-color: white;
+            .fa-map-marker {
+                font-size: 20px;
+            }
+            .fa-mobile, .fa-paper-plane {
+                font-size: 25px;
+            }
+        }
+    }
+    .social {
+        button {
+            margin-left: 15px;
+        }
+    }
+}

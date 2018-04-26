@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'gothamMediumItalic';
+	src: url('../fonts/GothamRoundedMediumItalic.eot');
+	src: url('../fonts/GothamRoundedMediumItalic.woff') format('woff'), url('../fonts/GothamRoundedMediumItalic.ttf') format('truetype'), url('../fonts/GothamRoundedMediumItalic.svg') format('svg');
+}
+@font-face {
+	font-family: 'gothamMedium';
+	src: url('../fonts/GothamRoundedMedium.eot');
+	src: url('../fonts/GothamRoundedMedium.woff') format('woff'), url('../fonts/GothamRoundedMedium.ttf') format('truetype'), url('../fonts/GothamRoundedMedium.svg') format('svg');
+}
+@font-face {
+	font-family: 'gothamBook';
+	src: url('../fonts/GothamRoundedBook.eot');
+	src: url('../fonts/GothamRoundedBook.woff') format('woff'), url('../fonts/GothamRoundedBook.ttf') format('truetype'), url('../fonts/GothamRoundedBook.svg') format('svg');
+}
+@font-face {
+	font-family: 'gothamBookItalic';
+	src: url('../fonts/GothamRounded-BookItalic.eot');
+	src: url('../fonts/GothamRounded-BookItalic.woff') format('woff'), url('../fonts/GothamRounded-BookItalic.ttf') format('truetype'), url('../fonts/GothamRounded-BookItalic.svg') format('svg');
+}
+@mixin fonts($font, $weight, $size) {
+    font-family: $font;
+    font-weight: $weight;
+    font-size: $size;
+}

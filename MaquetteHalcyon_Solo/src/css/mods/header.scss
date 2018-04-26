@@ -1,0 +1,57 @@
+header
+{
+    padding-top: 63px;
+    height: 800px;
+    background-image: url(../img/header/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   .jumbotron {
+       margin-top: 160px;
+       background: none;
+       h1 {
+           margin-bottom: 30px;
+           letter-spacing: .3em;
+           @include fonts(gothamBook, normal, 40px);
+       }
+       p {
+           letter-spacing: .150em;
+           @include fonts(gothamBook, normal, 15px);
+       }
+       button {
+           margin-top: 65px;
+           letter-spacing: .150em;
+           color: white;
+           padding-top: 20px;
+           padding-bottom: 20px;
+           padding-left: 35px;
+           padding-right: 35px;
+           background-color: rgb(61, 201, 179);
+           border-bottom-color: rgba(48,147,131,0.75);
+            -webkit-box-shadow: inset 0px -2px 0px 0px rgba(48,147,131,0.75);
+            -moz-box-shadow: inset 0px -2px 0px 0px rgba(48,147,131,0.75);
+            box-shadow: inset 0px -2px 0px 0px rgba(48,147,131,0.75);
+           @include fonts(gothamMedium, normal, 15px);
+           transition: background-color .400s;
+       }
+       button:hover {
+               background-color: #56a496;
+           }
+              }
+    nav {
+        .dropdown-menu {
+            @include fonts(gothamMedium, normal, 13px);
+            margin-top: 30px;
+            background-color: #242830;
+            li {
+                a {
+                    color: rgb(61, 201, 179);
+                }
+            }
+        }
+        .fa {
+            font-size: 30px;
+            cursor: pointer;
+        }
+    }
+}

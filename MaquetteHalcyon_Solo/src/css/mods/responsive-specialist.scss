@@ -1,0 +1,23 @@
+.responsive-specialist {
+    .carousel-caption {
+        padding-top: 140px; 
+        padding-left: 80px;
+        color: black;
+        text-shadow: none;
+        top: 0;
+        bottom: 0;
+        border-left: 1px solid #c9cbca;
+        height: 100%;
+        width: 586px;
+        background-color: white;
+    }
+    .paragraphe {
+        text-align: left;
+        
+    }
+    .carousel-indicators {
+        bottom: 200px;
+        margin-left: -330px;
+        z-index: 15;
+    }
+}
