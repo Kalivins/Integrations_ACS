@@ -8,7 +8,7 @@ Voici les quelques présentation de ceux ci !
 
 ![Maquette BlueEasy](https://raw.githubusercontent.com/Kalivins/Integrations_ACS/master/miniatures/blueeasy.png "Maquette BlueEasy")
 
-Réalisé par: **Villard Kevin (Kalivins) et Floriane Simmet ([fSimmet2]: https://github.com/Fsimmet2)**
+Réalisé par: **Villard Kevin (Kalivins) et Floriane Simmet ([fSimmet2](https://github.com/Fsimmet2))**
 
 Période: **Septembre/Octobre 2017~**
 
@@ -19,7 +19,7 @@ Notre première intégration à la formation, réalisé en **HTML5** et **CSS3**
 ![Maquette Snow](https://raw.githubusercontent.com/Kalivins/Integrations_ACS/master/miniatures/Snow.png "Maquette Snow")
 
 
-Réalisé par: **Villard Kevin (Kalivins) et Yohann Thorez ([Fawlia]: https://github.com/Fawlia)**
+Réalisé par: **Villard Kevin (Kalivins) et Yohann Thorez ([Fawlia](https://github.com/Fawlia))**
 
 Période: **Novembre/Décembre 2017~**
 
